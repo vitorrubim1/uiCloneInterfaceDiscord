@@ -28,5 +28,17 @@ export const Title = styled.h1`
   font-weight: bold;
   color: var(--white);
 `;
-export const Separator = styled.hr``;
-export const Description = styled.div``;
+
+export const Separator = styled.hr`
+  height: 24px;
+  width: 1px;
+  background-color: var(--white);
+  opacity: 0.2;
+  margin: 0 13px;
+`;
+
+export const Description = styled.span`
+  font-size: 15px;
+  color: var(--gray);
+
+`;
