@@ -19,6 +19,7 @@ export const Container = styled.div`
     //cada uma das divs, ser flex
     display: flex;
     align-items: center;
+    margin: 5px 0px;
   }
 
   > div span {
